@@ -23,6 +23,8 @@ cat /proc/version
 exit
 ```
 
+You can browse other docker images on [Docker Hub](https://hub.docker.com/)
+
 
 ### Part 2: Building (and running) our own docker images
 
