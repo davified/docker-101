@@ -53,13 +53,13 @@ docker run -p 3000:3000 -v $(pwd):/code docker-101-image npm run dev
 ### Part 4: Running 2 docker containers
 ```sh
 # start our app (this time with a database)
-docker run -p 3000:3000 docker-101-image node server_with_db.js # this will throw an error
+node server_with_db.js # this will throw an error
 
 # start mongodb
 docker run -p 27017:27017 mongo
 
 # start our app (this time with a database)
-docker run -p 3000:3000 docker-101-image node server_with_db.js # this will work now
+node server_with_db.js # this will work now
 ```
 
 ### Other useful docker commands

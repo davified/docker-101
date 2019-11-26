@@ -17,7 +17,7 @@ mongoose.connect(DB_URI, MONGOOSE_CONNECTION_OPTIONS, err => {
   if (err) throw err;
 
   const server = app.listen(PORT, () => {
-    logger.info(
+    console.log(
       `Listening to the smooth sounds of port ${server.address().port}...`
     );
   });
