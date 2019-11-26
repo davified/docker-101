@@ -14,7 +14,7 @@ docker pull ubuntu
 docker images
 
 # Start a container
-docker run -i -t ubuntu bash
+docker run -i -t ubuntu
 
 # see that we're indeed running linux
 cat /proc/version
