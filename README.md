@@ -30,6 +30,9 @@ You can browse other docker images on [Docker Hub](https://hub.docker.com/)
 
 In `app`, we have a simple web server, built using express
 ```sh
+# go into app directory
+cd ./app
+
 # build our own image
 docker build . -t docker-101-image
 
